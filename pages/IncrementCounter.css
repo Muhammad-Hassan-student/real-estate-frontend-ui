@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
+
+
+
+.body2 {
+ 
+  
+  font-family: 'Roboto Mono', sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 350px;
+  overflow: hidden;
+  margin: 0;
+}
+.views{
+    background-image:  linear-gradient(to bottom, rgba(245, 246, 252, 0.52), rgba(117, 19, 93, 0.73)),
+    url('../images/views.jpg');;
+   
+    /* background-image: url(../images/views.jpg);
+    background-color: #9057ab; */
+    color: #fff;
+}
+.views p{
+    font-size: 18px;
+    font-family:  sans-serif;
+    font-weight: 700;
+    
+
+}
+
+.counter-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin: 30px 50px;
+}
+
+.counter {
+  font-size: 60px;
+  margin-top: 10px;
+}
+
+@media (max-width: 580px) {
+  body {
+    flex-direction: column;
+  }
+}

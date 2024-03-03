@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+.companies{
+    background-color: white;
+    margin-top: 8px;
+    margin-bottom: 0;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
